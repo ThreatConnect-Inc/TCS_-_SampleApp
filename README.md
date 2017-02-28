@@ -3,7 +3,7 @@
 This ThreatConnect&trade; Spaces Sample App provides examples of a few features of the [angular-spaces](https://github.com/ThreatConnect-Inc/angular2-spaces) and [angular2-threatconnect](https://github.com/ThreatConnect-Inc/angular2-threatconnect) modules as well as a basic layout for a context aware App.
 
 ## Sidebar
-The Sidebar is an optional feature that provided a simple layout for a vertical menu.  Currently the area provided for a Spaces app is limited so the sidebar provides a good option for a navigational menu for an App.
+The Sidebar is an optional feature that provides a simple layout for a vertical menu.  Currently the area provided for a Spaces app is limited so the sidebar provides a good option for a navigational menu for an App.
 
 ## Tabs
 The Tabs section is an optional feature that uses [PrimeNG TabView](http://www.primefaces.org/primeng/#/tabview) to group relevant data.

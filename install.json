@@ -12,19 +12,20 @@
     "encrypt": true,
     "label": "API Token",
     "name": "api_token",
-    "type": "String",
     "sequence": 2,
+    "type": "String",
     "validValues": ["${USER:KEYCHAIN}", "${ORGANIZATION:KEYCHAIN}"]
   }, {
     "default": "info",
     "encrypt": false,
     "label": "Logging Level",
     "name": "logging",
+    "sequence": 3,
     "type": "Choice",
     "validValues": [
       "debug",
       "info",
-      "warning",
+      "warn",
       "error",
       "critical"
     ]
