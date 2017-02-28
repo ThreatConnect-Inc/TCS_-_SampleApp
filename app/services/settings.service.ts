@@ -43,7 +43,7 @@ export class SettingsService {
                 },
                 err => {
                     this.logging.error('Error', err);
-                    this.messages.showError('Failed', 'Saving Settings');
+                    this.messages.showError('Failed', 'Loading Settings');
                 }
             );
     }
