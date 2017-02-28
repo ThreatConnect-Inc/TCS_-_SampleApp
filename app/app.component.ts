@@ -42,6 +42,10 @@ export class AppComponent implements OnInit {
                     /* store app parameters */
                     this.storage.create('tcSelectedItem', this.spacesBase.param('tcSelectedItem'));
                     this.storage.create('tcType', this.spacesBase.param('tcType'));
+
+                    if (this.spacesBase.param('logging')) {
+                        this.logging.logLevel = this.spacesBase.param('logging');
+                    }
                 });
             });
     }
