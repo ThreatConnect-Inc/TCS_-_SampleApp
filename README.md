@@ -6,8 +6,8 @@ This ThreatConnect&trade; Spaces Sample App provides examples of a few features 
 git clone https://github.com/ThreatConnect-Inc/TCS_-_SampleApp.git
 
 ## Build App
-npm install
-grunt build:dist
++ npm install
++ grunt build:dist
 
 ## Deploy
 In the ThreatConnect UI install the App zip created in the Build App section.
