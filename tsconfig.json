@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "ui",
+    "removeComments": false,
+    "sourceMap": false,
+    "target": "ES5"
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "exclude": [
+    ".c9",
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "files": [
+    "./typings/index.d.ts",
+    "./app/main.ts"
+  ],
+}
