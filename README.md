@@ -2,6 +2,16 @@
 
 This ThreatConnect&trade; Spaces Sample App provides examples of a few features of the [angular-spaces](https://github.com/ThreatConnect-Inc/angular2-spaces) and [angular2-threatconnect](https://github.com/ThreatConnect-Inc/angular2-threatconnect) modules as well as a basic layout for a context aware App.
 
+## Install App
+git clone https://github.com/ThreatConnect-Inc/TCS_-_SampleApp.git
+
+## Build App
+npm install
+grunt build:dist
+
+## Deploy
+In the ThreatConnect UI install the App zip created in the Build App section.
+
 ## Sidebar
 The Sidebar is an optional feature that provides a simple layout for a vertical menu.  Currently the area provided for a Spaces app is limited so the sidebar provides a good option for a navigational menu for an App.
 
