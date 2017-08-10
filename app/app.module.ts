@@ -8,7 +8,7 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 /* Third-Party */
-import { Ng2DeviceDetector } from 'ng2-device-detector';
+import { Ng2DeviceDetectorModule } from 'ng2-device-detector';
 import {
     AccordionModule,
     ButtonModule,
@@ -67,7 +67,7 @@ import { SettingsService } from './services/settings.service';
         FormsModule,
         HttpModule,
         /* Device Detector */
-        Ng2DeviceDetector,
+        Ng2DeviceDetectorModule.forRoot(),
         /* PrimeNG */
         AccordionModule,
         ButtonModule,

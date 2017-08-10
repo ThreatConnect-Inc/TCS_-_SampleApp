@@ -13,7 +13,7 @@ import {
 }
 from 'angular2-threatconnect/main';
 
-import { Device } from 'ng2-device-detector';
+import { Ng2DeviceService } from 'ng2-device-detector';
 
 
 @Component({
@@ -26,7 +26,7 @@ export class ResourceComponent implements OnInit {
 
     constructor(
         private logging: SpacesLoggingService,
-        private device: Device,
+        private device: Ng2DeviceService,
         private messages: SpacesMessagesService,
         private tcGroup: TcGroupService,
         private tcIndicator: TcIndicatorService
