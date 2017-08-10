@@ -13,6 +13,7 @@
   ],
   "dependencies": {
     "angular2-threatconnect-src": "git+https://github.com/ThreatConnect-Inc/angular2-threatconnect.git#master",
+    "ng2-device-detector": "^1.0.0",
     "primeng": "2.0.0",
     "primeui": "^4.1.15"
   },
