@@ -1,3 +1,7 @@
+**DEPRECATED**
+
+Please Refer to updated App locate at https://github.com/ThreatConnect-Inc/TCX_-_ExampleContextApp.
+
 # TCS Sample App
 
 This ThreatConnect&trade; Spaces Sample App provides examples of a few features of the [angular-spaces](https://github.com/ThreatConnect-Inc/angular2-spaces) and [angular2-threatconnect](https://github.com/ThreatConnect-Inc/angular2-threatconnect) modules as well as a basic layout for a context aware App.
